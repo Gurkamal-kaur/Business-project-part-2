@@ -7,15 +7,16 @@ Market Basket Analysis and Product Recommendation
 The retail company wants to improve product placement, cross‑selling, upselling, and promotional bundling. By understanding which products are frequently purchased together, the business can design better offers, improve customer experience, and increase overall sales.
 
 ## 📂 Dataset Description
-- **Source:** Retail transaction basket dataset  
-- **Accessed via:** [Dataset Folder Link](https://drive.google.com/drive/folders/1XC-00liRVtIlyeFaig3mYTkQcBrheph6?usp=sharing)  
+- **Source:** Online Retail Transaction Dataset  
+- **Accessed via:** [Google Drive Link](https://drive.google.com/file/d/1LgnjuKUWrxb837khcdHDX6ox8o62XOkS/view?usp=sharing)  
+- **Description:** Transactional basket data from a UK‑based online retail store.  
 - **Columns:**  
   - `TransactionID` – Unique invoice number  
   - `ProductName` – Name of the product purchased  
   - `Quantity` – Number of units purchased  
-  - `CustomerID` – Unique customer identifier (if available)  
-  - `InvoiceDate` – Date of transaction (if available)  
-- **Granularity:** Each row represents a product purchased in a transaction.
+  - `CustomerID` – Unique customer identifier  
+  - `InvoiceDate` – Date of transaction  
+- **Granularity:** Each row represents a product purchased in a transaction.  
 
 ---
 
@@ -94,4 +95,3 @@ Clone the repository and install requirements:
 git clone https://github.com/Gurkamal-kaur/business-project-part-2.git
 cd business-project-part-2
 pip install -r requirements.txt
-
